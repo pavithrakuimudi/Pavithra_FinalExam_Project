@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-08T23:58:03 EST" name="Suite" finished-at="2025-02-08T23:59:34 EST" duration-ms="91153">
+    <groups>
+    </groups>
+    <test started-at="2025-02-08T23:58:03 EST" name="Test" finished-at="2025-02-08T23:59:34 EST" duration-ms="91153">
+      <class name="com.testSuite.TC_captureTableContent">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.testSuite.TC_captureTableContent@1ffaf86]" started-at="2025-02-08T23:58:03 EST" name="setupBrowser" finished-at="2025-02-08T23:58:08 EST" duration-ms="5124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageClass()[pri:0, instance:com.testSuite.TC_captureTableContent@1ffaf86]" started-at="2025-02-08T23:58:08 EST" name="initializePageClass" finished-at="2025-02-08T23:58:08 EST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.testSuite.TC_captureTableContent@1ffaf86]" started-at="2025-02-08T23:58:08 EST" name="beforeMethod" finished-at="2025-02-08T23:58:08 EST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testSuite.TC_captureTableContent.testmethod1() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testmethod1()[pri:0, instance:com.testSuite.TC_captureTableContent@1ffaf86]" started-at="2025-02-08T23:58:08 EST" name="testmethod1" finished-at="2025-02-08T23:59:33 EST" duration-ms="84773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod1 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testSuite.TC_captureTableContent@1ffaf86]" started-at="2025-02-08T23:59:33 EST" name="afterMethod" finished-at="2025-02-08T23:59:33 EST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testmethod1 status=SUCCESS method=TC_captureTableContent.testmethod1()[pri:0, instance:com.testSuite.TC_captureTableContent@1ffaf86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testSuite.TC_captureTableContent@1ffaf86]" started-at="2025-02-08T23:59:33 EST" name="afterTest" finished-at="2025-02-08T23:59:34 EST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testSuite.TC_captureTableContent -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
